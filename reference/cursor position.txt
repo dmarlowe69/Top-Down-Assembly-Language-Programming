@@ -1,0 +1,28 @@
+POKE 211,C  (moves cursor to specified Column, 0-79)
+POKE 214,R  (moves cursor to specified Row, 0-24)
+
+$E50A	
+Save or restore cursor position.
+Input: Carry: 0 = Restore from input, 1 = Save to output; X = Cursor column (if Carry = 0); Y = Cursor row (if Carry = 0).
+Output: X = Cursor column (if Carry = 1); Y = Cursor row (if Carry = 1).
+Used registers: X, Y.
+
+
+$E544	
+Clear screen.
+Input: –
+Output: –
+Used registers: A, X, Y.
+
+$E566	
+Move cursor home, to upper left corner of screen.
+Input: –
+Output: –
+Used registers: A, X, Y.
+
+$FFF0	
+PLOT. Save or restore cursor position.
+Input: Carry: 0 = Restore from input, 1 = Save to output; X = Cursor column (if Carry = 0); Y = Cursor row (if Carry = 0).
+Output: X = Cursor column (if Carry = 1); Y = Cursor row (if Carry = 1).
+Used registers: X, Y.
+Real address: $E50A.

@@ -1,0 +1,1 @@
+TMPx -a -i %1.asm -o %1.obj -l %1.lst

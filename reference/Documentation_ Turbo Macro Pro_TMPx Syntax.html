@@ -1,0 +1,885 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN" "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<!-- saved from url=(0057)http://turbo.style64.org/docs/turbo-macro-pro-tmpx-syntax -->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr" class="html not-front not-logged-in no-sidebars page-node page-node- page-node-27 node-type-documentation page-docs-turbo-macro-pro-tmpx-syntax section-docs not-admin-or-edit-or-add js"><head profile="http://www.w3.org/1999/xhtml/vocab"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+<link rel="shortcut icon" href="http://turbo.style64.org/sites/turbo.style64.org/files/cult_of_the_backarrow.ico" type="image/vnd.microsoft.icon">
+<link rel="canonical" href="http://turbo.style64.org/docs/turbo-macro-pro-tmpx-syntax">
+<link rel="shortlink" href="http://turbo.style64.org/node/27">
+  <title>Documentation: Turbo Macro Pro/TMPx Syntax</title>
+  <link type="text/css" rel="stylesheet" href="./Documentation_ Turbo Macro Pro_TMPx Syntax_files/css_pbm0lsQQJ7A7WCCIMgxLho6mI_kBNgznNUWmTWcnfoE.css" media="all">
+<link type="text/css" rel="stylesheet" href="./Documentation_ Turbo Macro Pro_TMPx Syntax_files/css_hR-iZ_yz_txFBJ9GrjlvsKYDqZzImBb2HpX-zvLFeyY.css" media="all">
+<link type="text/css" rel="stylesheet" href="./Documentation_ Turbo Macro Pro_TMPx Syntax_files/css_MnXiytJtb186Ydycnpwpw34cuUsHaKc80ey5LiQXhSY.css" media="all">
+<link type="text/css" rel="stylesheet" href="./Documentation_ Turbo Macro Pro_TMPx Syntax_files/css_OyDXhhw0uHfaHkYi7AiTnNdLTnmLIkYYNIFBc6d4rpw.css" media="all">
+  <script type="text/javascript" defer="" async="" src="./Documentation_ Turbo Macro Pro_TMPx Syntax_files/piwik.js"></script><script type="text/javascript" src="./Documentation_ Turbo Macro Pro_TMPx Syntax_files/js_xAPl0qIk9eowy_iS9tNkCWXLUVoat94SQT48UBCFkyQ.js"></script>
+<script type="text/javascript" src="./Documentation_ Turbo Macro Pro_TMPx Syntax_files/js_R9UbiVw2xuTUI0GZoaqMDOdX0lrZtgX-ono8RVOUEVc.js"></script>
+<script type="text/javascript" src="./Documentation_ Turbo Macro Pro_TMPx Syntax_files/js_S-38mChdgDk4aXp1VZv-SYSA7vsEu17yIsMeMOyXHDI.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\u002F", "pathPrefix":"", "ajaxPageState":{"theme":"turbo_assembler", "theme_token":"2EWSo88m7A_kyiVXq7fjZHZnElT7xL9FdiJHor9Acn0", "js":{"misc\u002Fjquery.js":1, "misc\u002Fjquery.once.js":1, "misc\u002Fdrupal.js":1, "sites\u002Fall\u002Fmodules\u002Fadmin_menu\u002Fadmin_devel\u002Fadmin_devel.js":1, "sites\u002Fturbo.style64.org\u002Fthemes\u002Fturbo_assembler\u002Fjs\u002Fjquery.color.js":1, "0":1}, "css":{"modules\u002Fsystem\u002Fsystem.base.css":1, "modules\u002Fsystem\u002Fsystem.menus.css":1, "modules\u002Fsystem\u002Fsystem.messages.css":1, "modules\u002Fsystem\u002Fsystem.theme.css":1, "sites\u002Fall\u002Fmodules\u002Fdate\u002Fdate_api\u002Fdate.css":1, "modules\u002Ffield\u002Ftheme\u002Ffield.css":1, "modules\u002Fnode\u002Fnode.css":1, "modules\u002Fsearch\u002Fsearch.css":1, "modules\u002Fuser\u002Fuser.css":1, "sites\u002Fall\u002Fmodules\u002Fviews\u002Fcss\u002Fviews.css":1, "sites\u002Fall\u002Fmodules\u002Fctools\u002Fcss\u002Fctools.css":1, "sites\u002Fturbo.style64.org\u002Fthemes\u002Fturbo_assembler\u002Fcss\u002Fbase\u002Freset.css":1, "sites\u002Fturbo.style64.org\u002Fthemes\u002Fturbo_assembler\u002Fcss\u002F960gs\u002F960_24_col.css":1, "sites\u002Fturbo.style64.org\u002Fthemes\u002Fturbo_assembler\u002Fcss\u002Fbase-drupal\u002Foverride-admin_menu.css":1, "sites\u002Fturbo.style64.org\u002Fthemes\u002Fturbo_assembler\u002Fcss\u002Fbase-drupal\u002Foverride-form.css":1, "sites\u002Fturbo.style64.org\u002Fthemes\u002Fturbo_assembler\u002Fcss\u002Fbase-drupal\u002Foverride-help.css":1, "sites\u002Fturbo.style64.org\u002Fthemes\u002Fturbo_assembler\u002Fcss\u002Fbase-drupal\u002Foverride-messages.css":1, "sites\u002Fturbo.style64.org\u002Fthemes\u002Fturbo_assembler\u002Fcss\u002Fbase-drupal\u002Foverride-views.css":1, "sites\u002Fturbo.style64.org\u002Fthemes\u002Fturbo_assembler\u002Fcss\u002Fbase-drupal\u002Fstyle-admin-or-add-or-edit.css":1, "sites\u002Fturbo.style64.org\u002Fthemes\u002Fturbo_assembler\u002Ffont\u002Ffont.css":1, "sites\u002Fturbo.style64.org\u002Fthemes\u002Fturbo_assembler\u002Fcss\u002Flayout.css":1, "sites\u002Fturbo.style64.org\u002Fthemes\u002Fturbo_assembler\u002Fcss\u002Fstyle.css":1}}});
+//--><!]]>
+</script>
+
+  <meta name="verify-v1" content="3mLOCEoRf4EML3cJf/1if2hgDongAiLE9DiJe3Rblls=">
+  <meta name="y_key" content="3d57f7583bbbaf24">
+
+  
+	<script type="text/javascript">
+		(function ($) {
+
+			$(document).ready(
+				function() {
+					$(".fade", "#social").fadeTo(2000, 0.4);
+				
+					$(".fade", "#social").hover(
+						function() {
+							$(this).stop().animate({ opacity: 1 }, 1);
+						},
+						function() {
+							$(this).stop().animate({ opacity: 0.6 }, 400);
+						}
+					);
+					
+					$("#mainmenu .turbo-title").hover(
+						function() {
+							$(this).find(".title-top").stop().animate({ color:'#9AD284' }, 100);
+							$(this).find(".title-highlight").stop().animate({ backgroundColor:'#9AD284' }, 100);
+						},
+						function(){
+							$(this).find(".title-top").stop().animate({ color:'#959595' }, 800);
+							$(this).find(".title-highlight").stop().animate({ backgroundColor:'#959595' }, 800);
+						}
+					);
+				}
+			);
+
+		})(jQuery);
+	</script>
+
+</head>
+
+
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-27 node-type-documentation page-docs-turbo-macro-pro-tmpx-syntax section-docs not-admin-or-edit-or-add">
+
+  <div id="page-top">
+  	  </div>
+
+  		<div id="mini-band">
+      <div id="mini-grid" class="container_24 clearfix">
+				<div id="mini-bar" class="floatright">
+					<ul id="social">
+												<li><a href="http://turbo.style64.org/rss.xml" title="go here"><img src="./Documentation_ Turbo Macro Pro_TMPx Syntax_files/rss.png" class="fade" style="opacity: 0.4;"></a></li>
+					</ul>
+				</div>
+				<div class="floatleft"> </div>
+				      </div>
+    </div>
+					
+					
+		<div id="header-band">
+      <div id="header-grid" class="container_24 clearfix">
+        <div class="grid_1"> </div>
+
+        <div id="header-menu" class="grid_16">
+          <center>
+            <div class="turbo-title">
+              <a href="http://turbo.style64.org/">
+                <span class="title-top"></span><br>
+                <span class="title-highlight">&nbsp;&nbsp;&nbsp;THE TURBO ASSEMBLER HOMEPAGE&nbsp;&nbsp;&nbsp;</span><span class="title-shadow"></span><br>
+                <span class="title-highlight">&nbsp;&nbsp;&nbsp;(featuring: Turbo Macro Pro)&nbsp;&nbsp;&nbsp;</span><span class="title-shadow"></span><br>
+                <span class="title-shadow"></span>
+              </a>
+            </div>
+          </center>
+        
+          <div id="mainmenu">
+            <div class="turbo-title">
+              <a href="http://turbo.style64.org/about-the-turbo-assembler-homepage">
+                <span class="title-top">&nbsp;</span><br>
+                <span class="title-highlight">&nbsp;About&nbsp;</span><span class="title-shadow"></span><br>
+                <span class="title-highlight">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="title-shadow"></span><br>
+                <span class="title-shadow"></span>
+              </a>
+            </div>
+            <div class="turbo-title">
+              <a href="http://turbo.style64.org/docs/table-of-contents">
+                <span class="title-top" style="color: rgb(149, 149, 149);">&nbsp;</span><br>
+                <span class="title-highlight" style="background-color: rgb(149, 149, 149);">&nbsp;Docs&nbsp;</span><span class="title-shadow"></span><br>
+                <span class="title-highlight" style="background-color: rgb(149, 149, 149);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="title-shadow"></span><br>
+                <span class="title-shadow"></span>
+              </a>
+            </div>
+            <div class="turbo-title">
+              <a href="http://turbo.style64.org/news">
+                <span class="title-top">&nbsp;</span><br>
+                <span class="title-highlight">&nbsp;News&nbsp;</span><span class="title-shadow"></span><br>
+                <span class="title-highlight">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="title-shadow"></span><br>
+                <span class="title-shadow"></span>
+              </a>
+            </div>
+            <br>
+            <div class="turbo-title">
+              <a href="http://turbo.style64.org/version-archive">
+                <span class="title-top">&nbsp;</span><br>
+                <span class="title-highlight">&nbsp;Archive&nbsp;</span><span class="title-shadow"></span><br>
+                <span class="title-highlight">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="title-shadow"></span><br>
+                <span class="title-shadow"></span>
+              </a>
+            </div>
+            <div class="turbo-title">
+              <a href="http://turbo.style64.org/other-resources">
+                <span class="title-top" style="color: rgb(149, 149, 149);">&nbsp;</span><br>
+                <span class="title-highlight" style="background-color: rgb(149, 149, 149);">&nbsp;Other&nbsp;</span><span class="title-shadow"></span><br>
+                <span class="title-highlight" style="background-color: rgb(149, 149, 149);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="title-shadow"></span><br>
+                <span class="title-shadow"></span>
+              </a>
+            </div>
+          </div>
+        </div>
+        
+        <div id="header-callout" class="grid_7">
+											<div id="callout">  <div class="region region-callout">
+    <div id="block-views-highlights-block" class="block block-views">
+
+    
+  <div class="content">
+    <div class="view view-highlights view-id-highlights view-display-id-block view-dom-id-809d644e9e7b9371cc02842ef3f4e04e">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+    <div id="node-1" class="node node-news-brief clearfix">
+
+  
+  <div class="brief-content">
+              <h2>
+        Download Current Versions      </h2>
+          
+    <div class="content clearfix">
+      <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even"><h3>C64 Assemblers</h3><br><a href="http://style64.org/release/turbo-macro-pro-sep06-style">Turbo Macro Pro Sep'06</a><br><span class="callout-note">(+REU, X2, +DTV/PTV)</span><br><h3>Cross Assemblers</h3><br><a href="http://style64.org/release/tmpx-v1.1.0-style">TMPx v1.1.0</a><br><span class="callout-note">(Win/OSX/Linux/FreeBSD/Solaris)</span><br><h3>Source Conversion</h3><br><a href="http://style64.org/release/tmpview-v1.3.1-style">TMPview v1.3.1</a><br><span class="callout-note">(Win/OSX/Linux/FreeBSD/Solaris)</span><br></div></div></div>    </div>
+  </div>
+
+</div>
+  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+</div>
+  </div>
+</div>
+					        </div>
+
+      </div>
+    </div>
+
+    
+    
+    
+    
+
+		<div id="focus-band">
+      <div id="focus-grid" class="container_24 clearfix">
+        <div id="mainbar" class="grid_24">
+        	<div id="mainbar-wrapper">
+
+                                      <h1 class="title" id="page-title">
+                Turbo Macro Pro/TMPx Syntax               </h1>
+                                                  <div class="tabs">
+                              </div>
+                                    
+						<div id="content" class="clearfix">
+							  <div class="region region-content">
+    <div id="block-system-main" class="block block-system">
+
+    
+  <div class="content">
+    <div id="node-27" class="node node-documentation clearfix">
+
+      
+  
+  <div class="content clearfix">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even"><h2>TMPx, Assembler Overview</h2>
+
+<p>TMPx source code syntax is a superset of it's c64-based sibling, Turbo Macro Pro. Basic elements of the syntax are:
+
+</p><p class="def"><b>labels:</b> Something like variable names, a label is used to refer to
+  a specific memory address or retain a value that can be used in an expression. Labels can be
+  assigned a value like a memory address or just a numeric constant explicitly or are set by
+  the assembler as it resolves unassigned labels.
+ 
+</p><p class="def"><b>opcodes:</b> These are the standard 6502 mnemonics, in the form of three
+  letter abbreviations. TMPx observes 6502 mnemonics as well as so-called illegal mnemonics
+  and opcodes specific to the DTV v2 (aka PTV) joystick and wheel hardware.
+  
+</p><p class="def"><b>pseudo ops:</b> Assembler directives that instruct TMPx to perform some
+  operation instead of merely translating an opcode into machine code.
+
+</p><p class="def"><b>comments:</b> A simple way to annotate source code; comments are completely
+  ignored by the assembler.
+
+
+
+</p><h2>Turbo Macro Pro, Assembler Details</h2>
+
+ <h3>Constant Values</h3>
+ 
+<p>Constant values can be expressed in either decimal, hexadecimal, binary,
+or as characters depending on how the value is written. The largest
+constant value TMPx can recognize is $ffff (65,535).
+
+</p><pre>    $  denotes a hexadecimal value
+    %  denotes a binary value (limited to single bytes)
+  'a'  denotes a character value, which translates to a byte
+</pre>
+
+<p>Any value that is not preceded by $ or % or wrapped in quotes is treated
+as a decimal value.
+
+</p><pre> -=&gt; Examples
+
+  $20        = hex   $20, dec   32
+  $2000      = hex $2000, dec 8192
+  15         = hex   $0f, dec   15
+  %10001000  = hex   $88, dec  135
+  '1'        = hex   $31, dec   49
+</pre>
+
+
+ <h3>ASCII/PETSCII</h3>
+ 
+<p>TMPx assembles from ASCII source code files. This presents some challenge when
+developing software for the C64 which uses PETSCII. TMPx resolves this by allowing
+the use of tokenized representations of PETSCII as necessary. The token notation
+chosen is referred to as 'bastext', which is the name of a program
+developed in the 90's to help bridge PETSCII to
+ASCII when translating BASIC programs and that used either short text identifers or
+three digit (zero/left padded) decimal values inside curly brackets.
+TMPx recognizes bastext tokens:
+
+</p><pre> -=&gt; Examples
+
+  {pound}    = british pound sign, PETSCII code 92
+  {white}    = color white, PETSCII code 5
+  {127}      = graphical character, PETSCII code 127
+</pre>
+
+<p>The bastext notation is further expanded to include any three digit decimal or hexidecimal
+value enclosed in curly braces. Such tokens are translated directly into the corresponding
+PETSCII code:
+
+</p><pre> -=&gt; Examples
+
+  {$20}      = space, PETSCII code 32
+  {063}      = question mark, PETSCII code 63
+</pre>
+
+<p>A bastext token can be used as a single character constant value enclosed in single quotes
+or as or or more characters in a double quoted string. Bastext tokens are referred to as either
+'named' (they use a short text identifier) or un-named (they use decimal or hexidecimal).
+A full list of the named bastext tokens recognized by TMPx is given at the end of this documentation.
+
+
+ </p><h3>Labels</h3>
+ 
+<p>Valid labels in TMPx can be composed of any combination of letters,
+numbers, and the underscore character (obtained by pressing CBM+@).
+Labels must begin with a letter or underscore. Label names can be used in expressions (see below)
+in the same manner as constant values.
+
+</p><p>To define a label explicitly, set the label to either a constant value,
+to another label, or to an expression which will be resolved into an value. Once set, a label's
+value can not change. Attempting to define the same label twice will result in an error.
+
+</p><pre> -=&gt; Examples
+
+  bah = $1000   ;sets the label 'bah' to $1000.
+  lab = bah     ;sets the label 'lab' to equal whatever address bah
+                ; resolves to (in this case, it would also be $1000).
+  tmp = bah+$8  ;sets the label 'tmp' to equal the address that the
+                ; expression 'bah+$8" resolves to ($1008).
+</pre>
+
+<p>There is a special label, which is called the 'program counter' and
+is represented in source code as the asterisk (*). It is important to
+set the value of * at the top of your code. When TMPx assembles your
+source, * is used to tell the assembler where the machine code should
+be assembled to. Set the value of * just like a label:
+
+</p><pre>  *   = $1000   ;sets the program counter to $1000.
+</pre>
+
+<p>Note that unlike normal labels, you can reset the value of * anywhere
+you want in your source code. Each time you redefine *, the assembler
+simply uses the new value and continues assembling machine code at the
+new address.
+
+
+
+ </p><h3>Expressions</h3>
+
+<p>Expressions in TMPx can be formed with the following operators,
+all of which are binary operators (i.e. they require a value on the right
+AND left side of the operator):
+
+</p><pre>  +   for addition
+  -   for subtraction
+  *   for multiplication
+  /   for division
+  &amp;   for bitwise and
+  .   for bitwise or
+  :   for bitwise eor
+</pre>
+
+<p>Values used with expressions can be constant values described above, or
+labels. Note that you can also use parenthesis and as you would expect
+they affect the order in which the expression is evaluated:
+
+</p><pre> -=&gt; Examples
+
+  $20 + 4         = hex $24, dec  36
+  15 - %00000011  = hex $0c, dec  12
+  $ff &amp; $f0       = hex $f0, dec 240
+  (2*$10)+1       = hex $21, dec  33
+  2*($10+1)       = hex $22, dec  34
+</pre>
+
+<p>Unlike standard expressions in C/C++, there is no operator precedence.
+For example, multiplication has no higher precedence than addition:
+
+</p><pre>  2*$10+1         = hex $21, dec  33
+  1+2*$10         = hex $20, dec  32
+</pre>
+
+<p>In the first example above, the multiplication is resolved first,
+followed by the addition. In the next example, the addition is processed
+first! As this is a simplified way of resolving expressions than is more
+commonly seen in programming languages, it is important to keep in mind.
+Careful use of parenthesis can help make the expected results explicit. 
+
+</p><p>The special '*' label can also be used in expressions, and it will
+always resolve to whatever the current program counter is where the
+assembler is outputting machine code to:
+
+</p><pre>  *= $1000     ;sets the program counter to $1000
+  jmp *+$03    ;assembles as jmp $1003
+  jmp *        ;also assembles as jmp $1003 because the program counter
+                 at this line will actually be $1003.
+</pre>
+
+<p>The value of an expressions can also be modified by the following
+characters, which must appear at the very front of the expression:
+
+</p><pre>  &lt;    denotes that the low byte of the following constant or
+        expression should be taken
+  &gt;    denotes that the hi byte of the following constant or
+        expression should be taken
+  !    denotes an expression whose value may currently or later
+        be determined as needing only 1 byte (i.e. 0-255) but
+        which should be expanded into 2 bytes for the purposes
+        of outputting machine code. See below for an example.
+</pre>
+
+<pre>
+-=&gt; Examples
+
+  &gt;$0314          = hex $03
+  &lt;$0314          = hex $14
+  &lt;$0400+(6*$28)  = hex $f0
+</pre>
+
+<p>Examples of the use of '!' are shown below.
+
+</p><pre>  lda $02    assembles as lda $02
+  lda !$02   assembles as lda $0002
+</pre>
+	
+<p>Another use of the '!' is to prevent phase errors. A phase error occurs 
+when the length of code as determined by pass one and pass two of the 
+assembler do not match. One way this can occur is by labels referenced 
+before they are defined:
+
+</p><pre>         lda bah  ; here, bah is undefined and TMPx assumes it is a word 
+         rts
+    bah = $02     ; bah is now defined as a byte value
+</pre>
+		
+<p>Assembling this code block results in a phase error, because TMPx assumes 
+undefined labels represent words during the first pass. If the label is 
+then found defined as a byte value, or if it actually resolves to a byte
+value, then the second pass will be shorter than the first and a phase
+error occurs. To prevent the phase error change the code to look like:
+
+</p><pre>         lda !bah
+         rts
+    bah = $02
+</pre>
+		
+<p>The '!' tells TMPx that the expression following should be treated as a 
+word no matter how the label was defined. Obviously the best choice would 
+be to define labels before referencing them but in our own experience this 
+is sometimes undesired so using '!' notation will help avoid the woes of 
+phase errors.
+
+
+ </p><h3>Comments</h3>
+
+<p>You can add comments to your source code by using the ';' (semicolon). Any 
+';' found by turbo will cause the assembler to ignore whatever follows the 
+';' til the end of that line. So comments can follow an opcode, or a 
+pseudo-op, or they can be on a line by themselves.
+
+</p><pre> -=&gt; Examples
+
+   ; this is a comment
+  lda #$01   ; this is a comment
+  sta $d020  ; so is this!
+</pre>
+
+
+ <h3>Pseudo-ops: Data</h3>
+
+<p>The following pseudo-ops are the standard way to make data tables.
+Note that values are not necessarily constrained to constants - they can
+be complete expressions as shown above.
+
+</p><pre>  .byte - takes a list of byte values which can be decimal, hex, binary
+           or character constants and produces a table of bytes.
+  .word - takes a list of word values which can be decimal or hex and
+           produces a table of bytes where the words are arranged in
+           low-byte hi-byte order.
+  .rta  - takes a list of word values which can be decimal or hex and
+           produces a table of bytes where the words are decremented
+           by 1 and set in low-byte hi-byte order; this is useful for
+           doing stack manipulation with e.g. return addresses.
+</pre>
+
+<pre> -=&gt; Examples
+
+  .byte 25,"a",$cc   =   $19 $41 $cc
+  .word $fce2        =   $e2 $fc
+  .rta $fce2         =   $e1 $fc
+</pre>
+
+
+<p>A similar set of pseudo-ops can be used to make string tables. Note that
+bastext tokens can be used inside strings.
+
+</p><pre>  .text   - takes a quoted string and converts it into a span of bytes.
+            Characters are converted from ASCII to PETSCII, including any
+            bastest token conversion.
+  .null   - as .text, but the span of bytes is terminated with
+             a null (0) byte.
+  .shift  - as .text, but the last byte has its high-bit set to 1.
+  .screen - as .text, but the characters are converted into screencodes.
+</pre>
+
+<pre> -=&gt; Examples
+
+  .text "hi"         =   $48 $49
+  .null "hi"         =   $48 $49 $00
+  .shift "hi"        =   $48 $c9
+  .screen "hi"       =   $08 $09
+</pre>
+
+
+<p>Another pseudo-op is provided for convenience when you want tp specify a large
+span of repetitive values. .repeat with a count followed by a sequence of one or more values or expressions
+will create as many copies of the value/expression as you've specified.
+
+</p><pre>  .repeat  - produce 1 or more copies of a sequence of 1 or more values.
+</pre>
+
+<pre> -=&gt; Examples
+
+label = $9876
+
+  .repeat 8,$ff          =   $ff $$ff $ff $ff $ff $ff $ff $ff
+  .repeat 3,label        =   $76 $98 $76 $98 $76 $98
+  .repeat 2,"a","b","c"  =   $41 $42 $43 $41 $42 $43
+</pre>
+
+
+  
+
+ <h3>Pseudo-ops:  Conditional Assembly</h3>
+
+<p>These pseudo-ops allow TMPx to assemble chunks of code based on the 
+evaluation of an expression - if it is equal or not equal to zero or if
+it is positive or negative. You can use the functionality to selectively 
+assemble code based on the value of a label, for example, or even the 
+current value of the program counter.
+
+</p><pre>  .if     - tests value or expression for inequality with zero.
+             (same as .ifne)
+  .ifne   - tests value or expression for inequality with zero.
+             (same as .if)
+  .ifeq   - tests value or expression for equality with zero.
+  .ifpl   - tests value or expression for positive (the condition passes
+            if the evaluated expression is from $0 - $7fff and fails
+            if the evaluated expression is from $8000-$ffff).
+  .ifmi   - tests value or expression for negative (the condition passes
+            if the evaluated expression is from $8000 - $ffff and fails
+            if the evaluated expression is from $0-$7fff).
+  .endif  - marks the end of the code block that is assembled when the
+             conditional test is met.
+</pre>
+
+<pre> -=&gt; Examples
+
+cycle = 65
+     .ifne cycle-65 ;if cycle != 65
+     nop            ;produce one nop
+     .endif
+</pre>
+
+<p>In addition to conditions based on the value of an expression, two other pseudo-ops
+test based simply on whether a label had been defined or not, regardless of its value.
+Both of the following pseudo-ops are also closed by .endif.
+
+</p><pre>  .ifdef    - tests whether a label has been defined, condition passes if it has.
+  .ifndef   - tests whether a label has been defined, condition passes if it has not.
+</pre>
+
+<pre> -=&gt; Examples
+
+ntsc = 1
+     .ifdef label
+     nop            ;produce one nop
+     .endif
+</pre>
+
+<p>Note that .ifdef and .ifndef can be most useful for testing whether a
+label definition has been specified in the command line arguments to TMPx. A scenario
+where this may be applied would be activating debugging code in output based on
+passing TMPx a "-D DEBUG" command line argument and testing for that in the source
+with ".ifdef DEBUG"
+
+
+
+ </p><h3>Pseudo-ops:  Blocks (Scope Control)</h3>
+
+<p>The block pseudo-op allows a very useful operation: marking a section of 
+code so that it can contain its own local labels, which can be redefined 
+outside of the block or within a different block. Using blocks when coding
+reusable subroutines can ease their integration into new code... when the
+blocked subroutine is inserted into another source, a coder needn't worry
+that the labels used inside the subroutine block will conflict with any
+labels already defined in the other code. Note that blocks can be nested
+inside other blocks, each one creating a local scope for labels defined inside.
+
+</p><pre>  .block  - starts a code block
+  .bend   - ends a code block
+</pre>
+
+<pre>
+ -=&gt; Examples
+
+tmp = $02           ;tmp is defined as $02
+     lda tmp        ;assembles as  lda $02
+sub                 ;our subroutine label name, 'sub'
+     .block        
+tmp = $ff           ;tmp is defined as $ff but only applies in the block
+     clc
+     adc tmp        ;assembles as  adc $ff, not adc $02!
+     rts 
+     .bend
+     lda tmp        ;assembles as  lda $02 again...
+</pre>
+
+
+ <h3>Pseudo-ops:  Variables</h3>
+
+<p>Variables are a special kind of label that can be
+redefined (even without worrying about localized blocks). This is the
+only way to change the value of a label in the same context without
+getting a 'double defined' error. These are most useful when combined
+with other pseudos like conditionals (see above) and goto (see below).
+
+</p><pre>  .var - defines a variable identified by the label preceeding '.var',
+          which is set to the value of the expression following the '.var'.
+</pre>
+
+<pre>
+ -=&gt; Examples
+
+va    .var $01   ;defines a var named va with value of 1
+      lda #va    ;results in lda #$01
+va    .var va+1  ;redefines va to it's current value+1
+      lda #va    ;results in lda #$02
+</pre>
+
+
+ <h3>Pseudo-ops:  Unconditional Goto</h3>
+
+<p>These pseudo-ops force the assembler to jump to a given label and
+continue assembling from there. This can be extremely useful for
+repeating a short code block 10, 100, or even more times.
+Only labels flagged with a .lbl psuedo-op can be referenced by a .goto!
+
+</p><pre>  .lbl   - identifies a label that can be referenced by a .goto
+  .goto  - causes assembler to goto the label referenced and continue
+            assembling from that point on.
+</pre>
+
+<pre>
+ -=&gt; Examples
+
+cnt    .var $0100  ;cnt = $100
+loop   .lbl        ;label 'loop' is prepared to be a .goto target
+       nop
+cnt    .var cnt-1  ;dec cnt
+       .ifne cnt   ;if cnt != 0
+       .goto loop  ;goto loop
+       .endif      ;until all $100 nop's are assembled
+</pre>
+
+
+ <h3>Pseudo-ops:  Macros</h3>
+
+<p>Macros are a means of inserting a larger span of code by using a short 
+macro label followed by 0 to 8 arguments. This "macro call" is expanded into 
+the code at assembly time, with substitutions made for the arguments 
+given. A macro call is identified by a '#' followed by the macro label.
+
+</p><pre>  .macro    - starts a macro definition that will implicitly treat the expanded
+               code block as though it were enclosed by .block/.bend.
+               around the macro
+  .segment  - starts a macro definition but without any implied block
+  .endm     - ends a macro definition
+</pre>
+
+<p>Macro argument substitutions are denoted in the macro code with either a '\'
+(ASCII backslash) to mark a numeric substitution or an '@' symbol to mark a
+string substitution.
+
+</p><pre> -=&gt; Examples
+
+poke   .macro    ;start macro def
+       lda #\2   ;the \2 means an argument substitution, in this case the
+                 ; second macro argument will replace the \2
+       sta \1    ;another substitution
+       .endm     ;end macro def
+</pre>
+
+<p>In the source code, a macro call for the above macro definition would look like:
+
+</p><pre>       #poke $d020,0
+</pre>
+
+<p>Upon assembly the macro call is expanded, and substitutions are made (in 
+this case \1 is replaced by $d020 and \2 is replaced by 0, resulting in the 
+following assembly being generated to replace the macro call:
+
+</p><pre>       lda #$00
+       sta $d020
+</pre>
+
+<p>Here is a more complex example showing recursion with macros:
+
+</p><pre>table .macro     ;start macro def
+cnt   .var \1+1  ;set var cnt to arg 1 plus 1
+      #tab       ;a macro call within a macro!
+      .endm      ;end macro def
+
+tab   .segment   ;start macro def
+cnt   .var cnt-1 ;decrement cnt
+      .if cnt    ;if cnt != 0
+      #tab       ;then recursively macro call itself
+      .endif     ;end of the if
+      .byte cnt  ;assemble a byte with current value of cnt
+cnt   .var cnt+1 ;increment cnt
+      .endm      ;end macro def
+
+       #table 64 ;call the macro to create a byte table from 0 to 64
+</pre>
+
+<p>Here is an example of using a text parameter in a macro definition and
+call:
+
+</p><pre>error  .macro      ;start macro def
+       lda #&lt;tx    ;lo-byte of tx
+       ldy #&gt;tx    ;hi-byte of tx
+       jsr $ab1e   ;print it
+       jmp end     ;skip text data
+tx     .null "@1"  ;@1 is replaced by a textual argument
+end    .endm       ;end macro def
+
+       #error "doc too boring"
+</pre>
+
+<p>So you see, use \x for numerical arguments, and @x for text arguments,
+where x denotes the argument number.
+
+</p><p>Text arguments can be even used to modify an opcode! Example:
+
+</p><pre>do     .segment
+       .block
+loop   .endm
+
+while  .segment    ;start macro def
+       b@1 loop    ;the @1 will be replaced by a text argument
+       .bend
+       .endm       ;end macro def
+
+       ldx #5      ;start of code
+       #do         ;call macro do
+       ldy #2
+       lda #"*"
+       #do         ;call macro do
+       jsr $ffd2
+       dey
+       #while "pl" ;call macro 'while' using parameter "pl"
+       lda #" "    ;print space
+       jsr $ffd2
+       dex
+       #while "ne" ; call macro 'while' with parameter "ne"
+</pre>
+
+
+ <h3>Pseudo-ops:  Includes</h3>
+
+<p>The .include psuedo-op allows you to assemble code from a different source file. 
+For example, you could use .include to assemble in a file 
+with label definitions for all of the kernal jumptable, or you could write 
+small reusable subroutines separately and include them in as you need them.
+
+</p><pre>  .include - load and assemble the specified file
+</pre>
+
+<pre> -=&gt; Example
+
+  .include "kernel.s"
+</pre>
+
+<p>The .binary psuedo-op will include the binary data in the given file directly
+into the assembled output at the location of the .binary call. You may optionally
+specify a number of data bytes to skip from the start of the included file by specifying
+that after the filename. This would be used to, for example, skip a two byte load
+address at the start of the file.
+
+</p><pre>  .binary - load and output bytes from the specified file, optionally
+            skipping bytes at the start of the file
+</pre>
+
+<pre> -=&gt; Example
+
+  .include "3d.dat"
+  .include "music.prg",2
+</pre>
+
+
+
+ <h3>Pseudo-ops:  Code Offsets</h3>
+
+<p>The .offs pseudo op is used to alter the memory address to where code is being
+assembled. This sounds identical to the function of the program counter (*) but
+there is a distinction: * sets the "effective address" for assembled code, meaning,
+object code is generated assuming that it is located at the address in the program counter.
+But .offs changes the "actual address" to where object code is assembled. If you do not
+use calls to .offs in your code, then the actual address and effective address will
+remain identical. Used together, you can assemble code so that it will execute properly in a
+different part of memory than where the code itself is located in the 
+assembled output.
+
+</p><pre>  .offs - change the location that code is assembled to; code will be assembled forward
+          in memory the the value of the expression following .offs
+</pre>
+
+<pre> -=&gt; Example
+
+     (this code)   -&gt;  (assembles as)
+       * = $2000
+start  bit base0       bit $2009
+       bit base        bit $8000
+       jmp *           jmp $2006
+base0  * = $8000
+base   .offs base0-*
+       lda #&gt;start     lda #$20
+       jmp *           jmp $8002
+</pre>
+
+<p>This code is assembled from $2000 to $200d; by using an expression for the 
+.offs we can generate code in a contiguous memory span, even though part 
+of the code has been assembled to execute at a different memory address (in 
+this case, $8000). In this example the .offs is effectively offsetting the assembled
+code backwards in memory. Naturally this can be extremely useful for coding 
+routines that need to execute in zero page, or for coding routines to 
+run in drive memory.
+
+
+
+ </p><h3>Pseudo-ops:  Printer Control</h3>
+
+<p>The printer psuedo-ops allow some control of output during assembly.
+.proff and .pron allow you to skip printing sections of code, while
+.hidemac and  .showmac let you control whether the expanded macro
+gets printed or just the macro call.
+
+</p><pre>  .pron     - turn on printing
+  .proff    - turn off printing
+  .hidemac  - show unexpanded calls
+  .showmac  - show expanded calls
+</pre>
+
+
+ <h3>Pseudo-ops:  Miscellaneous</h3>
+
+<pre>  .eor      - followed by some value, with which all code after the
+               .eor is eor'd with.
+  .end      - terminate assembling
+  .bounce   - try ".bounce 2,256,0,255,1,0,0,100,100,0,0" for a good time.
+</pre>
+</div></div></div>  </div>
+
+  
+  
+</div>
+  </div>
+</div>
+  </div>
+						</div> <!-- /content -->
+
+					</div> <!-- /mainbar -->
+        </div> <!-- /mainbar -->
+
+
+      </div>
+    </div>
+
+
+		<div id="footer-band">
+      <div id="footer-grid" class="container_24 clearfix">
+        <div id="footer" class="grid_24">
+            <div class="region region-footer">
+    <div id="block-block-1" class="block block-block">
+
+    
+  <div class="content">
+    <div id="contact clearfix"><p class="floatright">Site &amp; Content © 2005-2012, Style.</p><p class="floatleft"><a href="http://turbo.style64.org/contact-us">Contact Us</a> </p></div><br><div id="credits"><p class="floatright"><a href="http://style64.org/">style64.org</a></p><p class="floatleft">&nbsp;</p></div>  </div>
+</div>
+  </div>
+        </div> <!-- /footer -->
+      </div>
+    </div>
+
+
+
+  <div id="page-bottom">
+  	<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var _paq = _paq || [];(function(){var u=(("https:" == document.location.protocol) ? "" : "http://p.style64.org/piwik/");_paq.push(["setSiteId", "2"]);_paq.push(["setTrackerUrl", u+"piwik.php"]);_paq.push(["setDownloadExtensions", "7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip|d64|d81"]);_paq.push(["trackPageView"]);_paq.push(["enableLinkTracking"]);var d=document,g=d.createElement("script"),s=d.getElementsByTagName("script")[0];g.type="text/javascript";g.defer=true;g.async=true;g.src="http://turbo.style64.org/sites/turbo.style64.org/files/piwik/piwik.js?nt4rt8";s.parentNode.insertBefore(g,s);})();
+//--><!]]>
+</script>
+  </div>
+
+
+
+
+
+
+</body></html>
